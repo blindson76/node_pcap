@@ -1,4 +1,7 @@
 {
+  "variables":{
+    "openssl_fips": "0"
+  },
   "targets": [
     {
       "target_name": "pcap_binding",
@@ -12,7 +15,7 @@
           ]
       },
       "variables":{
-        "openssl_fips": ""
+        "openssl_fips": "0"
       }
     }
   ]
