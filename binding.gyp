@@ -10,6 +10,9 @@
           "libraries": [
               "-lpcap"
           ]
+      },
+      "variables":{
+        "openssl_fips": ""
       }
     }
   ]
